@@ -1,0 +1,36 @@
+#chooser-demo-tbl {
+  width: 100%;
+  font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tbody {
+  border: 1px solid #d0d4d9;
+}
+
+#chooser-demo-tbl tr {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:first-of-type {
+  background: #f6f9fc;
+  border-bottom: 1px solid #d0d4d9;
+}
+
+#chooser-demo-tbl td:first-child {
+  color: #999;
+  width: 150px;
+}
+
+#chooser-demo-tbl td {
+  padding: 18px 0;
+}
+
+tbody tr td:first-child {
+  text-align: center;
+}
